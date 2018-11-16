@@ -1,6 +1,6 @@
 {
   "name": "create-cli-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "bin": "lib/index.js",
   "main": "lib/index.js",
@@ -10,7 +10,7 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare": "npm run build",
+    "prepare": "cp templates/cli.js lib/index.js",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
