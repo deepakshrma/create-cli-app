@@ -21,8 +21,11 @@
     "url": "git+https://github.com/deepakshrma/create-cli-app.git"
   },
   "keywords": [
-    "Hello",
-    "Greeter"
+    "CreateCli",
+    "cli",
+    "command-line",
+    "nodejs",
+    "node-cli"
   ],
   "author": "deepakshrma<deepak.m.shrma@gmail.com>",
   "license": "ISC",
@@ -32,7 +35,7 @@
   "homepage": "https://github.com/deepakshrma/create-cli-app#readme",
   "dependencies": {
     "colors": "^1.3.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-replace": "^1.0.0",
     "yargs": "^12.0.2"
   },
